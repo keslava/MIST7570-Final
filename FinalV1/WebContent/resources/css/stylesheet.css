@@ -1,0 +1,184 @@
+@CHARSET "UTF-8";
+
+html, body {
+	height: 100%;
+	margin: 0px;
+}
+
+html {
+	background: #d9d9d9;
+	font-family: tahoma;
+	text-align: center;
+}
+
+.wrapper {
+	min-height: 100%;
+	margin-bottom: -25px;
+}
+
+.header {
+	height: auto;
+	width: 100%;
+	background: linear-gradient(141deg, #295f9c 0%, #4484ce 75%);
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	height: auto;
+	z-index: 1;
+	overflow: hidden;
+	padding: 0 15px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;	
+}
+
+.header h2 {
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 30%;
+	line-height: 50px;
+	color: #ffffff;
+}
+
+
+
+.nav {
+	width: 70%;
+	float: right;
+	text-align: left;
+}
+
+#nav_ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	float: right;
+}
+
+.content {
+    padding: 50px 50px 50px 50px;
+	margin-right: 50px;
+	margin-left: 50px;
+    min-height: 1000px;
+}
+
+.nav_li {
+	border: 2px solid #ffffff;
+	background-color: #4484ce;
+	float: left;
+	padding: 0 8px;
+	line-height: 36px;
+	margin: 5px 0 5px 5px;
+}
+
+.nav_li a, .nav_li a:active, .nav_li a:link, .nv_li a:visited {
+	text-decoration: none;
+	font-weight: bold;
+	color: #ffffff;
+	margin: 0;
+}
+
+.nav_li a:hover {
+	color: #0b3c5d;
+}
+
+.footer, .push {
+	height: 25px;
+}
+
+.footer {
+	background-color: #4484ce;
+	color: #ffffff;
+}
+
+h1 {
+	padding-top: 35px;
+}
+
+table {
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #f19f4d;
+}
+
+
+th {
+	background-color: #4484ce;
+	padding: 10px;
+	color: white;
+}
+
+td {
+	text-align: center;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+	background-color: #f7c594;
+}
+
+.plp {
+	width: 150px;
+	height: 150px
+}
+
+input {
+	width: 150px;
+}
+
+.form input[type=submit] {
+	border: none;
+    padding: 8px 15px 8px 15px;
+    background: #f9cf00;
+    box-shadow: 1px 1px 4px #DADADA;
+    -moz-box-shadow: 1px 1px 4px #DADADA;
+    -webkit-box-shadow: 1px 1px 4px #DADADA;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+
+.form input[type=submit]:hover {
+    background: #d9b310;
+}
+
+#error {
+	color: red;
+}
+
+.button {
+  display: inline-block;
+  padding: 5px 5px;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: white;
+  background-color: #4484ce;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px #999;
+}
+
+.button:hover {
+	background-color: #f9cf00;
+	color: black;
+}
+
+.button:active {
+  background-color: #f9cf00;
+  color: black;
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+}
+
+.textbox {
+	width: 75px;
+	font-size: 24px;
+	text-align: center;
+}
