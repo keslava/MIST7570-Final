@@ -4,32 +4,32 @@
 <html>
 <head>
         <link type="text/css" rel="stylesheet" href="resources/css/stylesheet.css"/>
-        <title>MIST 7570 Final</title>
+        <title>MIST7570e Final</title>
 </head>
 <body>
 
 	<div class="header">
-    	<div class="nav">    				
-		</div>		
-		<h2 style="font-family: Verdana">MIST 7570 Final</h2>        
+    	<div class="nav">
+		</div>
+		<h2 style="font-family: Verdana">MIST7570e Final</h2>
 	</div>
-	
+
 	<div class="wrapper">
-	
-		<h1>You have successfully registered!</h1>
-		
+
+		<h1>Congratulations! You have successfully registered.</h1>
+
 		<img class="hero" src="resources/images/success.jpg">
-		
+
 		<p>Please <a href="index.jsp">login</a></p>
 		${errorMessage}
-	
+
 	<div class="push"></div>
-	
+
 	</div>
-	
+
 	<footer class="footer">
-		<p>MIST 7570 Final by Daniel Crittenden and Joe Vo</p>
+		<p>MIST7570e Final by Mike Oberschmidt, Alex Borges-Ortiz, and Katrina Eslava</p>
 	</footer>
-        
+
 </body>
 </html>

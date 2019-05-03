@@ -5,22 +5,22 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link type="text/css" rel="stylesheet" href="resources/css/stylesheet.css"/>
-<title>Online Store - Login</title>
+<title>Online Shoe Store - Login</title>
 </head>
 <body>
 
 	<div class="header">
-    	<div class="nav">    				
-		</div>		
-		<h2 style="font-family: Verdana">MIST 7570 Final</h2>        
+    	<div class="nav">
+		</div>
+		<h2 style="font-family: Verdana">MIST7570e Final</h2>
 	</div>
-    
+
     <div class="wrapper">
-    
+
     	<h1>Log In</h1>
-    	
+
     	<div class="form">
-    
+
     		<form name="loginForm" action="login" method="post">
 				<table>
 					<tr>
@@ -38,16 +38,16 @@
 				</table>
 				${errorMessage}
 			</form>
-		
+
 		</div>
-	
+
 		<div class="push"></div>
-		
+
 	</div>
-	
+
 	<footer class="footer">
-		<p>MIST 7570 Final by Daniel Crittenden and Joe Vo</p>
+		<p>MIST7570e Final by Mike Oberschmidt, Alex Borges-Ortiz, and Katrina Eslava</p>
 	</footer>
-	
+
 </body>
 </html>
