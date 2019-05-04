@@ -29,7 +29,7 @@
 
 	<div class="wrapper">
 
-		<h1><c:out value="${user.fName}'s" /> Shopping Cart</h1>
+		<h1><c:out value="${user.fName}'s" />Shopping Cart</h1>
 		${msg }
 
 		<div>
