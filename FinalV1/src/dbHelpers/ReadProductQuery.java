@@ -9,10 +9,6 @@ import java.util.Locale;
 
 import model.Product;
 
-/**
- * @author danielcrittenden
- *
- */
 public class ReadProductQuery {
 	
 	private Connection connection;

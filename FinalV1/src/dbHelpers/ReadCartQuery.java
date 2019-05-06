@@ -10,10 +10,6 @@ import java.util.Locale;
 import model.Product;
 import model.User;
 
-/**
- * @author danielcrittenden
- *
- */
 public class ReadCartQuery {
 	
 	private Connection connection;

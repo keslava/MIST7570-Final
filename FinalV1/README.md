@@ -1,5 +1,9 @@
-# mist7570final
-Final project for Programming class. 
+# mist7570efinal
+Final project for Programming I class. 
+
+# Scenario: 
+Most online retailer sites include some common core functionality. Customers can browse an online catalog, they can add items to their shopping cart, they can remove items from their cart, and they can purchase items. For many sites, customers can become registered members. For this project, you are to create some of the use cases for an online retail site. You may choose a primary theme of your site or just include general merchandise. You make work in a team of one, two or three people.
+
 Basic e-commerce website with login, inventory management, and cart.
 Concepts include:
 * Http requests
@@ -7,9 +11,3 @@ Concepts include:
 * SQL database
 * State management
 * HTML/CSS
-
-* User SQL Dump: https://www.dropbox.com/s/ma9j1abvgy0vtrv/online_store_2017-04-21.sql?dl=0
-* Product SQL Dump: https://drive.google.com/open?id=0B9qbdvmjvMlGalB5RUQ0UDhhNzg
-* Cart SQL dump: https://drive.google.com/open?id=0B9qbdvmjvMlGeHBCSFVlQlBzRFU
-
-Collaboration with https://github.com/danisbubblesdad
