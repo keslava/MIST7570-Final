@@ -21,7 +21,7 @@
 
 		<div class="form">
 
-			<form name="registration" action="register" method="post">
+			<form name="registration" action="success.jsp" method="post">
     			<table>
     				<tr>
     					<td><label>Username:</label></td>
@@ -41,7 +41,7 @@
      				</tr>
      				<tr>
      					<td><input type="submit" name="submit" value="Register"></td>
-     					<td><a href="index.jsp">back</a></td>
+     					<td><a href="success.jsp">back</a></td>
      				</tr>
      			</table>
      			${errorMessage}

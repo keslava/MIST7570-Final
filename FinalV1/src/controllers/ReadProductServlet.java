@@ -44,7 +44,7 @@ public class ReadProductServlet extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// Create a ReadQuery helper object
-		ReadProductQuery rpq = new ReadProductQuery("online_store", "root", "root");
+		ReadProductQuery rpq = new ReadProductQuery("finalasg", "root", "root");
 		
 		// Get the HTML table from the ReadQuery object
 		rpq.doRead();

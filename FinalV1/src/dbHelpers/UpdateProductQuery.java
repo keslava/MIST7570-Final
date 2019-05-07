@@ -32,7 +32,7 @@ public class UpdateProductQuery {
 	public void changeInventoryQuantity(int productId, int cartQuantity){
 		
 		String query = "UPDATE product SET inventory_qty=? WHERE id=?";
-		ReadProductQuery rpq = new ReadProductQuery("online_store", "root", "root");
+		ReadProductQuery rpq = new ReadProductQuery("finalasg", "root", "root");
 		int productInventoryQuantity = rpq.getInventoryQty(productId);
 		
 		try {

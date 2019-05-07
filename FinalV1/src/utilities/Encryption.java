@@ -4,7 +4,7 @@ import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
-import sun.misc.BASE64Encoder;
+import com.sun.jndi.ldap.BerEncoder;
 
 public final class Encryption {
 	
@@ -26,7 +26,7 @@ public final class Encryption {
 		}
 		
 		byte raw[] = md.digest();
-		String hash = (new BASE64Encoder()).encode(raw);
+		String hash = (new BerEncoder()).encodeByte(raw);
 		return hash;
 		
 	}

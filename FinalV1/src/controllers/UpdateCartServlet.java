@@ -66,8 +66,8 @@ public class UpdateCartServlet extends HttpServlet {
 			submitValue = request.getParameter("submit");	
 		}
 		
-		ReadCartQuery rcq = new ReadCartQuery("online_store", "root", "root");
-		UpdateCartQuery ucq = new UpdateCartQuery("online_store", "root", "root");
+		ReadCartQuery rcq = new ReadCartQuery("finalasg", "root", "root");
+		UpdateCartQuery ucq = new UpdateCartQuery("finalasg", "root", "root");
 		
 		cartQuantity = rcq.lookupQuantity(user, productId);
 

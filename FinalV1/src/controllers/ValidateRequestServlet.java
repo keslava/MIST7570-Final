@@ -12,10 +12,7 @@ import javax.servlet.http.HttpSession;
 
 import dbHelpers.ReadCartQuery;
 import dbHelpers.ReadProductQuery;
-import dbHelpers.RegisterQuery;
-import dbHelpers.UpdateCartQuery;
 import model.User;
-import utilities.Encryption;
 
 /**
  * Servlet implementation class RegisterServlet
@@ -68,14 +65,14 @@ public class ValidateRequestServlet extends HttpServlet {
 		}
 		
 		// query on productId to determine current inventory amount
-		ReadProductQuery rpq = new ReadProductQuery("online_store", "root", "root");
+		ReadProductQuery rpq = new ReadProductQuery("finalasg", "root", "root");
 		currentInventoryQuantity = rpq.getInventoryQty(productId);
 		
 		// calculate the quantity difference requested for cart quantity updates
 		
 		if (submitValue.equalsIgnoreCase("update")) {
 			// Query on previous cart quantity for product
-			ReadCartQuery rcq = new ReadCartQuery("online_store", "root", "root");
+			ReadCartQuery rcq = new ReadCartQuery("finalasg", "root", "root");
 			lastQuantityRequested = rcq.lookupQuantity(user, productId);
 		}
 		

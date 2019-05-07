@@ -21,7 +21,7 @@
 
     	<div class="form">
 
-    		<form name="loginForm" action="login" method="post">
+    		<form name="loginForm" action="welcome.jsp" method="post">
 				<table>
 					<tr>
 						<td><label>Username</label></td>

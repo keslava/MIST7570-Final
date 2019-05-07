@@ -52,7 +52,7 @@ public class RegisterServlet extends HttpServlet {
 		Encryption pwd = new Encryption();
 		String encryptedPass = pwd.encrypt(password);
 		
-		CheckUserQuery cu = new CheckUserQuery("online_store", "root", "root");
+		CheckUserQuery cu = new CheckUserQuery("finalasg", "root", "root");
 		User user = cu.checkUser(userName);
 		
 		if (user != null){
@@ -67,7 +67,7 @@ public class RegisterServlet extends HttpServlet {
 			newUser.setfName(fName);
 			newUser.setlName(lName);
 			
-			RegisterQuery rq = new RegisterQuery("online_store", "root", "root");
+			RegisterQuery rq = new RegisterQuery("finalasg", "root", "root");
 			
 			rq.doRegister(newUser);
 			

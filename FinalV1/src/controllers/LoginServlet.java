@@ -71,7 +71,7 @@ public class LoginServlet extends HttpServlet {
 			Encryption encrypted = new Encryption();
 			String encryptedPassword = encrypted.encrypt(password);
 			
-			LoginQuery lq = new LoginQuery("online_store", "root", "root");
+			LoginQuery lq = new LoginQuery("finalasg", "root", "root");
 			User user = lq.authenticateUser(username, encryptedPassword);
 			
 			if (user != null){

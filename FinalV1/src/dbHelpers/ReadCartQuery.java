@@ -18,7 +18,7 @@ public class ReadCartQuery {
 	static NumberFormat currencyFormatter = NumberFormat.getCurrencyInstance(locale);
 	
 	public ReadCartQuery(String dbName, String uname, String pwd){
-		String url = "jdbc:mysql://localhost:3306/" + dbName;
+		String url = "jdbc:mysql://localhost:3306/" + "finalasg";
 		
 		// set up the driver
 		

@@ -52,7 +52,7 @@ public class GenerateCartServlet extends HttpServlet {
 		
 		User user = (User) session.getAttribute("user");
 		
-		ReadCartQuery rcq = new ReadCartQuery("online_store", "root", "root");
+		ReadCartQuery rcq = new ReadCartQuery("finalasg", "root", "root");
 		
 		// Iterate through DB and assign to HTML string
 		String table = "";
